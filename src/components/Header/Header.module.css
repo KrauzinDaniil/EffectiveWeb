@@ -1,0 +1,74 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+.wrapper  {
+ 
+  width: 75%;
+}
+span { 
+    position: absolute;
+    left: 0;
+}
+.pageName {
+    font-size: 24px;
+}
+
+
+.photoAndLabel {
+    display: flex;
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.siteHat {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.underHat {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Virtual {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+
+h1  { 
+    color: var(--text-black-color);
+    text-align: left;
+}
+
+.serviceText {
+    font-size: 21px;
+    text-align: left;
+    color: var(--text-grey-color);
+}
+.headerButton { 
+  border-radius: 50px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: var(--main-element-color);
+  cursor: pointer;
+  margin-top: 10%;
+  width: 35%;
+}
+.headerButton { 
+    color: var(--label-text-color);
+}
+.headerButton:hover { 
+    background-color: var(--active-button_color);
+}

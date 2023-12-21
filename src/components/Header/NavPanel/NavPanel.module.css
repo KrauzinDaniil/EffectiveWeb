@@ -1,0 +1,67 @@
+.pageName h2    {
+     margin-left: 5%;
+     color: var(--label-h2-color);
+     
+}
+
+
+
+
+
+.photoAndLabel {
+    display: flex;
+    align-items: center;
+    
+    font-weight: 700;
+    
+}
+
+.siteHat {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.circle { 
+    display: flex;
+    width: 41px;
+    height: 41px;
+    background-color: var(--main-element-color);  
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.circle text  {
+    font-size: 26px;
+    color: var(--label-text-color);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav li {
+    padding-right: 40px;
+
+}
+
+nav li a {
+    font-size: 18px;
+    color: var(--text-grey-color);
+}
+a:hover { 
+    cursor: pointer;
+    color: var(--active-button_color);
+}
+a:active  {
+    font-weight: bold; 
+    font-size: 18px; 
+    color: var(--active-button_color); 
+}
+.chosen a  { 
+    color: var(--active-button_color);
+    font-weight: bold;
+}
