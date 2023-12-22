@@ -1,5 +1,7 @@
 import classes from "./Services.module.css"
 import ServiceCard from "./ServiceCard";
+import ServiceAdditionalLeft from "./ServiceAdditional/ServiceLeft/ServiceAdditionalLeft";
+import ServiceAdditionalRight from "./ServiceAdditional/ServiceRight/ServiceAdditionalRight";
 
 
 const Services: React.FC = () => {
@@ -21,8 +23,11 @@ const Services: React.FC = () => {
 lovely family" />
                 <ServiceCard image="src/assets/notes.svg" header="Tracking" text="Track and save your medical history and health data " />
             </div>
+            <div className={classes.decorElem}><img src="src/assets/element.svg"/></div> 
             <button> <div> Learn more </div></button>
-             
+             <ServiceAdditionalLeft/>
+            
+             <ServiceAdditionalRight/>
         </div>
 
     </main>)

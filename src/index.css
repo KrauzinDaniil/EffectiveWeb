@@ -30,6 +30,35 @@ body  {
  
   
 }
+button {
+  margin-top: 4.5%;
+  border-radius: 50px;
+  border: 1.4px solid var(--main-element-color);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  
+}
+button:hover {
+  border-color: var(--active-button_color);
+
+}
+button:hover div{
+  color: var(--active-button_color);
+
+}
+button div  {
+  color: var(--main-element-color)
+}
+
+
+
 
 h1 {
   font-size: 3.2em;

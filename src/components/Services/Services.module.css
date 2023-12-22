@@ -47,29 +47,8 @@ h2 {
     color: var(--text-grey-color);
     font-weight: 300;
 }
-
-
-button {
-    margin-top: 4.5%;
-    border-radius: 50px;
-    border: 1.4px solid var(--main-element-color);
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    cursor: pointer;
-    transition: border-color 0.25s;
-    width: 10%;
-    
-  }
-  button:hover {
-    border-color: var(--active-button_color);
-
-  }
-  button:hover div{
-    color: var(--active-button_color);
-
-  }
-  button div  {
-    color: var(--main-element-color)
-  }
+.decorElem {
+    position: absolute;
+    right: 0;
+    margin-top: 80%;
+}
