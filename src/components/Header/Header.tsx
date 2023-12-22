@@ -17,6 +17,7 @@ const Header: React.FC = () => {
                     <div className={classes.serviceText}> <text>Our service provides progressive, and<br /> affordable healthcare, accessible on mobile<br /> and online for everyone</text></div>
 
                     <div className={classes.headerButton}>Consult today</div>
+                    
                 </div>
 
                 <div><img src="src/assets/header-image.png" /></div>
