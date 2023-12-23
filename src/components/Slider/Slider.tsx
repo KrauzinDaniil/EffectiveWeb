@@ -77,8 +77,7 @@ const SliderPanel: React.FC = () => {
       { image: "/src/assets/man.png",  name: "Edward Callgate", role: "Founder Square", "comment": text },
     ];
   return (<div>
-       <Slider slides = {slides}/>
-
+         <Slider slides = {slides}/>
   </div> )
 }
 
