@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 30%;
     margin-left: 2.5%;
-   
     border: 0px solid transparent;
     background-color: white;
     border-radius: 5%;
@@ -49,7 +48,6 @@
     padding-bottom: 10%;
     padding-right: 10%;
     padding-left: 10%;
-    
     height: 100%;
 }
 .readMore {
@@ -73,7 +71,7 @@
     margin-left: 4%;
     width: 15px;
     height: 9px;
-    mask-image: url("/src/assets/articleArrow.svg");
+    mask-image: url("/src/assets/arrowpics/articleArrow.svg");
     background-color: var(--main-element-color);
 
     

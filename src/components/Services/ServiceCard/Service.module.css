@@ -1,12 +1,11 @@
 .block { 
     width: 30%;
-    height: 354px;
     border-radius: 15px;
     margin-left: 2.5%;
     margin-top: 37px;
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
     z-index: 1;
-    background-color: white;
+    background-color: var(--background-color)
     
     
     
@@ -21,16 +20,22 @@
     align-items: start;
     padding: 10%;
     z-index: 1;
+   
+    
+    
 }
 
 .headerStyle { 
+    height: 50px;
     font-size: 24px;
     z-index: 1;
     font-weight: 700;
     color: var(--text-black-color);
     text-align: left;
+    width: 100%;
 }
 .textStyle { 
+    
     font-size: 16px;
     text-align: left;
     margin: 0;

@@ -1,7 +1,102 @@
 footer { 
 
-    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background: linear-gradient(183deg, var(--gradient-light-color) -8.57%, var(--gradient-dark-color) 82.96%);
     width: 100%;
-    height: 30%;
- 
+    color: var(--label-text-color);
+    margin-top: 10%;
+}
+
+.wrapper  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    
+}
+.siteInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.logoSign { 
+    display: flex;
+    align-items: center;
+}
+.logo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+}
+.logo div  {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--main-element-color)
+}
+.healthCare  {
+   
+    margin-left: 8px;
+    font-size:24px;
+    font-weight: 700;
+
+}
+.description { 
+    font-weight: 100;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+}
+.siteRights {
+    font-weight: 100;
+    margin-top: 3%;
+    text-align: left;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.healthCare h2  {
+    font-size: 24px;
+    color: var(--label-text-color)
+}
+.list { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+ul li { 
+    text-align: left;
+    padding-bottom: 5%;
+    list-style-type: none;
+    font-weight: 100;
+    font-size: 18px;
+   
+}
+.innerWrapper { 
+    width: 50%;
+    display: flex; 
+    align-items: start;
+    justify-content: space-evenly;
+}
+h3 { 
+    font-size: 20px;
+}
+.brightGradient { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.decorElem  {
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+    bottom: 85%;
 }
