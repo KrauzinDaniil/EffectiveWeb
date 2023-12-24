@@ -1,7 +1,7 @@
 :root {
   position: relative;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
   
   --main-element-color : #458FF6;
   --label-text-color: #FFFFFF;
@@ -9,26 +9,18 @@
   --text-grey-color: #7D7987;
   --active-button_color:  #1F1534;
   --text-black-color: #000000;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #eedbdb;
+  --background-color: #ffffff;
+  --gradient-light-color: #67C3F3;
+  --gradient-dark-color: #5A98F2;
+    background-color: var(--background-color);
   
 
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+
 
 body  {
-  
   width: 100%;
- 
-  
 }
 button {
   margin-top: 4.5%;
@@ -56,10 +48,14 @@ button:hover div{
 button div  {
   color: var(--main-element-color)
 }
-
-
-
-
+a:hover { 
+  cursor: pointer;
+  color: var(--active-button_color);
+}
+a:active  { 
+ 
+  color: var(--active-button_color); 
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

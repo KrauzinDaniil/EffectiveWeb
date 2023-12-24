@@ -1,7 +1,8 @@
-.pageName h2    {
-     margin-left: 5%;
-     color: var(--label-h2-color);
-     
+.pageName h2 {
+    margin-left: 5%;
+    color: var(--label-h2-color);
+    font-size: 24px;
+
 }
 
 
@@ -11,58 +12,62 @@
 .photoAndLabel {
     display: flex;
     align-items: center;
-    
+
     font-weight: 700;
-    
+
+
 }
 
 .siteHat {
-    
+
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
+    
+
 }
 
-.circle { 
+.circle {
     display: flex;
     width: 41px;
     height: 41px;
-    background-color: var(--main-element-color);  
+    background-color: var(--main-element-color);
     border-radius: 50%;
     justify-content: center;
-    align-items: center; 
-    
+    align-items: center;
+
 }
-.circle text  {
+
+.circle text {
     font-size: 26px;
     color: var(--label-text-color);
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
 
+
+.navUl {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    display: flex;
 }
 
 nav li {
+    height: 1px;
     padding-right: 40px;
-
 }
 
 nav li a {
+    font-weight: 400;
     font-size: 18px;
     color: var(--text-grey-color);
 }
-a:hover { 
-    cursor: pointer;
-    color: var(--active-button_color);
-}
-a:active  {
-    font-weight: bold; 
-    font-size: 18px; 
-    color: var(--active-button_color); 
-}
-.chosen a  { 
+
+.chosen a {
     color: var(--active-button_color);
     font-weight: bold;
 }
